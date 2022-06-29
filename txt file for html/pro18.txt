@@ -1,0 +1,21 @@
+<html>
+<head>
+<title> parameterized function</title>
+<script language="javascript">
+function add(a,b)
+{
+	var sum = a+b;
+	alert("summation is "+sum);
+}
+</script>
+</head>
+<body>
+<font size=5>
+<p> click the following button to call the function</p>
+<form>
+<input type="button" onclick="add(10,20);"
+value="Click here">
+</form>
+</font>
+</body>
+</html>

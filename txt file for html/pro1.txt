@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practical_1</title>
+
+
+	<h3>A)</h3>
+
+	<b>
+	<ul>DRINK</ul>
+	</b>
+
+		<ul>
+			<font color="brown">
+				<li>coffee</li>
+				<li>milk</li>
+				<li>tea</li>
+			</font>
+				<ul>
+					<font color="green">
+						<li>black tea</li>
+						<li>green tea</li>
+					</font>
+				</ul>
+		</ul>
+		
+		
+		<h3>B)</h3>
+
+		<b>
+			<ul>COUNTRY</ul>
+		</b>
+
+		<ul>
+			<font color="red">
+
+				<li>india</li>
+				<ul>
+				<font color="cream">
+					<li>gujarat</li>
+
+						<ul>
+							<ol>
+							<font color="gray"> 
+
+								<li>surat</li>
+								<li>ahmedabad</li>
+								<li>navsari</li>
+							</font>
+							</ol>
+						</ul>
+					<li>rajasthan</li>
+					<li>mp</li>
+					<li>up</li>
+
+				</font>
+				</ul>
+
+				<li>usa</li>
+				<li>china</li>
+				<li>uk</li>
+
+
+			</font>
+		</ul>
+
+
+		<h3>C)</h3>
+
+		<b>
+			<ul>MAHARASTRA</ul>
+		</b>
+		
+			<ul>
+				<font color="navy">
+					<li>pune</li>
+				        <ul>
+							<font color="corali">
+								<li>kothrud</li>
+								<li>nanded</li>
+								<li>bhugaon</li>
+							</font>	
+						</ul>
+
+					<li>mumbai</li>
+						<ul>
+							<font color="tomato">
+								<li>goregaon</li>
+								<li>andheri west</li>
+								<li>andheri east</li>
+							</font>
+						</ul>
+				</font>
+			</ul>
+</head>
+
+</html>

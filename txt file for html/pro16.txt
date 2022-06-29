@@ -1,0 +1,17 @@
+
+
+<html>
+<head>
+<title>
+functions
+</title>
+</head>
+<script language="javascript">
+function callme()
+{
+	alert("Hii");
+}
+callme();
+</script>
+</body>
+</html>

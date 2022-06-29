@@ -1,0 +1,21 @@
+AIM(33) : Write a JavaScript that handles following  events. If the mouse is over heading, 
+			change font color to "red" and if the mouse goes out of the heading change it to "black". 
+
+
+<html>
+<head>
+<script language="JavaScript">
+function over()
+{
+document.getElementById("head1").style.color="blue";
+}
+function out()
+{
+document.getElementById("head1").style.color="black";
+}
+</script>
+</head>
+<body>
+<h1 Id="head1" onmouseover="over()" onmouseout="out()">This is heading1 style.</h1>
+</body>
+</html>

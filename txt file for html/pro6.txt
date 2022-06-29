@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		p{
+			text-align: center;
+			color: blue;
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<p>DDICAS</p>
+	<p ="BCA">SYBCA</p>
+	<p>Palsana</p>
+</body>
+</html>

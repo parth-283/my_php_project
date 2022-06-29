@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Javascript
+	</title>
+</head>
+<body>
+<font size="10" color="blue">
+	<script type="text/javascript">
+		document.write("welcom to javascript");
+		document.write("<br>line break");
+	</script>
+</font>
+</body>
+</html>

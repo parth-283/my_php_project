@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> use if else for student marksheet</title>
+
+</head>
+<body>
+	<font size="6" color="blue">
+		<script type="text/javascript">
+			var rno,sname,wd,java,se,total,avg;
+			rno= prompt("enter roll no");
+			sname= prompt("enter student name");
+			wd= parseInt( prompt("enter your wd marks"));
+			java= parseInt(prompt("enter your java marks"));
+			se= parseInt(prompt("enter your se marks"));
+			total= wd + java + se;
+			avg= (total / 3);
+			document.write("rno:- "+rno);
+			document.write("<br>sname:- "+sname);
+			document.write("<br>total:- "+total);
+			document.write("<br>avg:- "+avg);
+			if (wd>=35 && java>=35 && se>=35 )
+			{
+			 	if (avg>= 80)
+			 	{
+			 	 	document.write("<br>grade:a");
+				}
+				else if(avg>= 60)
+			 	{
+			 	 	document.write("<br>grade:b");
+				}
+				else if(avg>= 40)
+			 	{
+			 	 	document.write("<br>grade:c");
+				}
+			}
+			else
+			{
+			 	document.write("<br>fail");
+			}
+		</script>
+	</font>
+
+</body>
+</html>

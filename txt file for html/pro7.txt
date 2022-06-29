@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Inline css
+	</title>
+</head>
+<body>
+	<h1 style="color: blue; margin-left: 30px;">
+		hii web desiging
+	</h1>
+	<p style="color: red; font-size: 20px;">
+		hii sybca student
+	</p>
+
+</body>
+</html>

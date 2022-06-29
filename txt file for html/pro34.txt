@@ -1,0 +1,25 @@
+AIM(34) : If button named "red" is clicked, background should change to red and 
+		  If button named "green" is clicking, background should change to green.
+		  
+
+<html>
+<head>
+<script type="text/javascript">
+function changebackground(val)
+{
+if(val=='red')
+{
+document.body.style.background="red";
+}
+else if(val=='green')
+{
+document.body.style.background="green";
+}
+}
+</script>
+</head>
+<body>
+<input type="button" id="rbtn" onclick ="changebackground('red')" value="Red Button"/>
+<input type="button" id="gbtn"onclick ="changebackground('green')" value="Green Button"/>
+</body>
+</html>

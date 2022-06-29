@@ -1,0 +1,33 @@
+AIM(28) : Write a program to accept a number from user and check whether it is armstrong or not.
+	(HINT : armstrong number means the summation of cubes of all the digits of the number should be exactly to the number...)
+	E.G : 153 (1*1*1) + (5*5*5) + (3*3*3)
+	
+<html>
+<head>
+<title>
+While loop
+</title>
+</head>
+<body>
+<font size=5>
+<script language="javascript">
+var n,n1,r,sum;
+sum = 0;
+n = parseInt(prompt("Enter a number:"))
+n1 = n;
+do
+{
+		r = n % 10;
+		sum = sum + (r*r*r);
+		n = Math.floor(n/10);
+}
+while(n>0);
+if(n1 == sum)
+	document.write("Number is armstrong - " +n1);
+else
+
+	document.write("Number is not armstrong - " + n1);
+</script>
+</font>
+</body>
+</html>

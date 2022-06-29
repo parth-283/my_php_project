@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>External css</title>
+
+	<link rel="stylesheet"type="text/css"href="1_External css.css"/>
+	
+</head>
+<body>
+<h1>Hii DDICAS</h1>
+<p>Hii Student</p>
+</body>
+</html>

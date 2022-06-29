@@ -1,0 +1,6 @@
+prectical:-6
+->write a simple code to demostate the user of element selector.
+prectical:-7
+->write a simple code for inlinee style sheet.
+prectical:-8
+->write a simple code for internal(embedding) style sheet.

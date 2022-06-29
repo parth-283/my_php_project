@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	
+	<style type="text/css">a:link
+		{
+			color:blue;
+		
+		a < visited color:green;
+		}
+		table,tr,td{
+			border: 2px solid black;
+		}
+		tr.nth-child (odd){background-color:pink ;}
+		tr.nth-child (even){background-color:blue ;}
+		h3{
+			color: green;text-indent: 2cm;
+			text-transform:uppercase;
+		}
+	</style>
+
+</head>
+<body>
+	<a href="#">click hear</a>
+	<table>
+		<br\><br\>
+
+		<tr>
+			<td>no</td>
+			<td>name</td>
+			<td>city</td>
+		</tr>
+
+
+		<tr>
+			<td>1</td>
+			<td>parth</td>
+			<td>surat</td>
+		</tr>
+
+
+		<tr>
+			<td>2</td>
+			<td>jay</td>
+			<td>surat</td>
+		</tr>
+
+
+		<tr>
+			<td>3</td>
+			<td>ravi</td>
+			<td>jamnagar</td>
+		</tr>
+
+
+		<tr>
+			<td>4</td>
+			<td>harshit</td>
+			<td>bardoli</td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td>nayan</td>
+			<td>junagadh</td>
+		</tr>
+
+	</table>
+	
+</body>
+</html>

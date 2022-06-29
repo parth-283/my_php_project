@@ -1,0 +1,25 @@
+AIM(26) : Write a program to accept a number from user and print factorial of it.
+
+<html>
+<head>
+<title> While loop</title>
+</head>
+<body>
+<font size= 5>
+<script language="javascript">
+var n,n1,f;
+f = 1;
+n = parseInt(prompt("Enter the number:"))
+n1 = n;
+while (n>0)
+{
+	f =f*n;
+	n--;
+}
+document.write("factorial of" + n1 + "is" + f);
+</script>
+</font>
+</body>
+</html>
+
+

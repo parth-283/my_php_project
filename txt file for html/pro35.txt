@@ -1,0 +1,19 @@
+AIM(35) : If "Date and Time" button is clicked it displays
+		  current date and time information.
+		  
+		  
+<html>
+<head>
+<script type="text/javascript">
+function showdttime()
+{
+document.getElementById("demo").innerHTML = Date();
+//replaces the content of <p> with an empty string
+}
+</script>
+</head>
+<body>
+<p id="demo"></p>
+<input type="button" onclick="showdttime()" value="Date and Time"/>
+</body>
+</html>
